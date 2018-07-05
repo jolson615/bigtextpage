@@ -10,6 +10,6 @@ window.addEventListener("click", e => {
     counter += 1
     centerdiv.innerHTML = ""
     centerdiv.classList.add("purp")
-    centerdiv.classList.remove("grey")
+    centerdiv.classList.remove("mygrey")
   }
 })

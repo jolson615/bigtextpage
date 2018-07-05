@@ -14,9 +14,10 @@
   font-weight: 700;
   padding-right: 60px;
   outline: none;
+  background-color: rgba(0,0,0,0);
 }
 
-.grey {
+.mygrey {
   color: #666;
   border-bottom: 2px #666 solid;
 }
