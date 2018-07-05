@@ -1,0 +1,18 @@
+.hcenter {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.vcenter {
+  font-size: 4em;
+  padding: 5vh 10vw;
+  font-weight: 700;
+  color: #ce0bed;
+}
+
+body {
+  background: linear-gradient(135deg, #00f482 0%,#009ec3 100%);
+}
