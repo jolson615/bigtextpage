@@ -6,7 +6,7 @@ console.log(centerdiv)
 
 window.addEventListener("keydown", e => {
   console.log(e)
-  if (e.key != "Shift" && e.key != "CapsLock" && e.key != "Backspace" ) {
+  if (e.key != "Shift" && e.key != "CapsLock" && e.key != "Backspace" && e.key != "Enter" && e.key != "Meta") {
     letters.push(e.key)
     console.log(letters)
   }
