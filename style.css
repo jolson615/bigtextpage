@@ -6,12 +6,28 @@
   height: 100vh;
 }
 
-.vcenter {
+.hcenter > .vcenter {
   font-family: helvetica;
   font-size: 4em;
-  padding: 5vh 10vw;
+  margin: 5vh 10vw;
+  padding-bottom: 20px;
   font-weight: 700;
+  padding-right: 60px;
+  outline: none;
+}
+
+.grey {
+  color: #666;
+  border-bottom: 2px #666 solid;
+}
+
+.purp {
   color: #ce0bed;
+  border-bottom: 2px #ce0bed solid;
+}
+
+input {
+  background-color: inherit;
 }
 
 body {

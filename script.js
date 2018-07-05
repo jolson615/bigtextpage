@@ -1,17 +1,15 @@
 console.log("loaded!")
 
-var letters = []
 var centerdiv = document.querySelector(".vcenter")
 console.log(centerdiv)
+var counter = 0
 
-window.addEventListener("keydown", e => {
+window.addEventListener("click", e => {
   console.log(e)
-  if (e.key != "Shift" && e.key != "CapsLock" && e.key != "Backspace" && e.key != "Enter" && e.key != "Meta") {
-    letters.push(e.key)
-    console.log(letters)
+  if (counter == 0) {
+    counter += 1
+    centerdiv.innerHTML = ""
+    centerdiv.classList.add("purp")
+    centerdiv.classList.remove("grey")
   }
-  if (e.key == "Backspace") {
-    letters.pop()
-  }
-  centerdiv.innerHTML = letters.join("")
 })
